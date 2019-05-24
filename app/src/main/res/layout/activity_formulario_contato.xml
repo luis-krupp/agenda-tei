@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16sp"
+    android:background="#FFFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:hint="Nome *"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formulario_contato_nome"
+            android:layout_marginBottom="24sp"/>
+
+        <EditText
+            android:hint="Endereço *"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formulario_contato_endereco"
+            android:layout_marginBottom="24sp"/>
+
+        <EditText
+            android:hint="E-mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/formulario_contato_email"
+            android:layout_marginBottom="24sp"/>
+
+        <EditText
+            android:hint="Telefone *"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/formulario_contato_telefone"
+            android:layout_marginBottom="24sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salvar"
+            android:id="@+id/formulario_contato_salvar"/>
+
+    </LinearLayout>
+</ScrollView>
